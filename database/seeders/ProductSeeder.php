@@ -13,6 +13,10 @@ class ProductSeeder extends Seeder
      */
     public function run(): void
     {
+        if (DB::table('products')->exists()) {
+            return;
+        }
+
         DB::table('products')->insert([
             [
                 'name' => 'Hi-Court Canvas',
