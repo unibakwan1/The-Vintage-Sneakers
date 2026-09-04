@@ -31,7 +31,7 @@
   </style>
 </head>
 <body>
-  <div class="print-actions"><button type="button" onclick="window.print()">Cetak / Simpan PDF</button><a href="{{ route('cart') }}">Kembali ke keranjang</a></div>
+  <div class="print-actions"><button type="button" onclick="window.print()">Cetak / Simpan PDF</button><a href="{{ route('shop') }}">Kembali ke shop</a></div>
   <main class="warranty-card">
     <header class="card-head">
       <div><div class="brand">The Vintage Sneakers</div><div class="eyebrow">Official warranty card</div><h1>Pair<br>protected.</h1></div>

@@ -143,8 +143,9 @@
 
 <style>
   .direct-success-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:18px}
-  .direct-success-actions button{min-height:42px;padding:12px 16px;border:1px solid rgba(209,88,60,.7);border-radius:5px;background:rgba(209,88,60,.12);color:#fff;cursor:pointer;font:10px 'IBM Plex Mono',monospace;letter-spacing:.06em;text-transform:uppercase}
+  .direct-success-actions button,.direct-success-actions .direct-warranty-link{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:248px;min-height:62px;margin:0;padding:12px 16px;border:1px solid rgba(209,88,60,.7);border-radius:5px;background:rgba(209,88,60,.12);color:#fff;cursor:pointer;font:10px 'IBM Plex Mono',monospace;letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
   .direct-success-actions button:hover{background:rgba(209,88,60,.24)}
+  .direct-success-actions .direct-warranty-link:hover{background:rgba(209,88,60,.24)}
 </style>
 
 <section class="direct-checkout-overlay" id="directCheckoutOverlay" aria-hidden="true">
